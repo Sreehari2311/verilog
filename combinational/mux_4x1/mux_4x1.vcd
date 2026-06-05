@@ -1,0 +1,71 @@
+$date
+	Fri Jun  5 03:29:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_4x1_tb $end
+$var wire 1 ! Y $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var reg 1 % D $end
+$var reg 1 & select_0 $end
+$var reg 1 ' select_1 $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 ! Y $end
+$var wire 1 ( and_out_0 $end
+$var wire 1 ) and_out_1 $end
+$var wire 1 * and_out_2 $end
+$var wire 1 + and_out_3 $end
+$var wire 1 & select_0 $end
+$var wire 1 , select_0_bar $end
+$var wire 1 ' select_1 $end
+$var wire 1 - select_1_bar $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1-
+1,
+0+
+0*
+0)
+0(
+0'
+0&
+1%
+0$
+1#
+0"
+0!
+$end
+#10
+1!
+0,
+1)
+1&
+#20
+0!
+1,
+0)
+0-
+0&
+1'
+#30
+1!
+0,
+1+
+1&
+#40
