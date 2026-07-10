@@ -1,0 +1,122 @@
+$date
+	Wed Jun 17 04:05:04 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Parity_Checker_tb $end
+$var wire 1 ! y $end
+$var reg 4 " a [3:0] $end
+$var reg 1 # p $end
+$var integer 32 $ i [31:0] $end
+$scope module uut $end
+$var wire 4 % a [3:0] $end
+$var wire 1 # p $end
+$var parameter 32 & N $end
+$var reg 5 ' temp [4:0] $end
+$var reg 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 &
+$end
+#0
+$dumpvars
+b0 '
+b0 %
+b0 $
+0#
+b0 "
+0!
+$end
+#10
+1!
+b1 '
+1#
+b1 $
+#20
+b10 '
+b1 "
+b1 %
+0#
+b10 $
+#30
+0!
+b11 '
+1#
+b11 $
+#40
+1!
+b100 '
+b10 "
+b10 %
+0#
+b100 $
+#50
+0!
+b101 '
+1#
+b101 $
+#60
+b110 '
+b11 "
+b11 %
+0#
+b110 $
+#70
+1!
+b111 '
+1#
+b111 $
+#80
+b1000 '
+b100 "
+b100 %
+0#
+b1000 $
+#90
+0!
+b1001 '
+1#
+b1001 $
+#100
+b1010 '
+b101 "
+b101 %
+0#
+b1010 $
+#110
+1!
+b1011 '
+1#
+b1011 $
+#120
+0!
+b1100 '
+b110 "
+b110 %
+0#
+b1100 $
+#130
+1!
+b1101 '
+1#
+b1101 $
+#140
+b1110 '
+b111 "
+b111 %
+0#
+b1110 $
+#150
+0!
+b1111 '
+1#
+b1111 $
+#160
+b10000 $

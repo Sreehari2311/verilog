@@ -1,0 +1,55 @@
+$date
+	Mon Jun 15 09:58:47 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Grey_to_binary_tb $end
+$var wire 4 ! y [3:0] $end
+$var reg 4 " a [3:0] $end
+$var integer 32 # i [31:0] $end
+$scope module uut $end
+$var wire 4 $ a [3:0] $end
+$var reg 4 % y [3:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11111111111111111111111111111111 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10
+b1 !
+b1 %
+b11111111111111111111111111111111 &
+b1 "
+b1 $
+b1 #
+#20
+b11 !
+b11 %
+b11111111111111111111111111111111 &
+b10 "
+b10 $
+b10 #
+#30
+b10 !
+b10 %
+b11111111111111111111111111111111 &
+b11 "
+b11 $
+b11 #
+#40
+b100 #

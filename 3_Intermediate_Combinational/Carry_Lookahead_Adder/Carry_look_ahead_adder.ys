@@ -1,0 +1,7 @@
+read_verilog Carry_look_ahead_adder_data.v
+
+synth -top Carry_look_ahead_adder
+
+write_verilog Carry_look_ahead_adder_netlist.v
+
+
